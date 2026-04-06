@@ -2,13 +2,13 @@
 
 [![License - MIT](https://img.shields.io/badge/license-MIT-202235.svg?logo=python&labelColor=202235&color=edb641&logoColor=edb641)](https://spdx.org/licenses/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-009485.svg?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
-[![FastStream](https://camo.githubusercontent.com/4bbf0095f52083ac1b693fdab68466f859b674aeef4bcb5c92fb0c087812dfc0/68747470733a2f2f696d672e736869656c64732e696f2f656e64706f696e743f75726c3d68747470732533412532462532467261772e67697468756275736572636f6e74656e742e636f6d25324661673261692532466661737473747265616d2532466d61696e253246646f6373253246646f6373253246617373657473253246696d67253246736869656c642e6a736f6e)](https://faststream.ag2.ai/latest/)
+[![FastStream](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fag2ai%2Ffaststream%2Fmain%2Fdocs%2Fdocs%2Fassets%2Fimg%2Fshield.json)](https://faststream.ag2.ai)
 [![Dishka](https://img.shields.io/badge/Dishka-1.4.2+-green)](https://github.com/reagento/dishka)
 
 This project is an implementation of "Clean architecture" in combining:
 - [FastAPI](https://github.com/fastapi/fastapi)
 - [Dishka](https://github.com/reagento/dishka)
-- [FastStream](https://github.czom/ag2ai/faststream)
+- [FastStream](https://github.com/ag2ai/faststream)
 
 > ⚡ **Why FastAPI?**\
 The original example application was built using the Litestar framework. However, as the framework evolved, it took a rather specific development direction, so we decided to rewrite the materials using FastAPI. As of today, it is the most optimal framework choice for working with HTTP.
