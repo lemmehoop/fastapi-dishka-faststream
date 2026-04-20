@@ -67,7 +67,7 @@ def mock_provider(session: AsyncSession) -> Provider:
         async def get_transaction_manager(
             self, db_session: AsyncSession
         ) -> AsyncGenerator[interfaces.TransactionManager]:
-            async with db_session.begin() as trx:
+            async with db_session.begin_nested() as trx:
                 yield trx
 
     return MockProvider()
